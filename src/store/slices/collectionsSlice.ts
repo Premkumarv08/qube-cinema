@@ -3,6 +3,8 @@ import axios from "axios";
 import { Collection, CollectionDetails } from "../../types";
 import { RootState } from "..";
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+
 interface CollectionsState {
   collections: Collection[];
   filteredCollections: Collection[];
@@ -22,12 +24,12 @@ const initialState: CollectionsState = {
 };
 
 export const fetchCollections = createAsyncThunk("collections/fetchCollections", async () => {
-  const response = await axios.get<Collection[]>("/api/collections");
+  const response = await axios.get<Collection[]>(`${API_URL}/v1/collections`);
   return response.data;
 });
 
 export const fetchCollectionDetails = createAsyncThunk("collections/fetchCollectionDetails", async (id: string) => {
-  const response = await axios.get<CollectionDetails>(`/api/collections/${id}`);
+  const response = await axios.get<CollectionDetails>(`${API_URL}/v1/collections/${id}`);
   return response.data;
 });
 
