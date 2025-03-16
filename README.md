@@ -1,54 +1,131 @@
-# React + TypeScript + Vite
+# Qube Cinema Music Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack application for managing and browsing music collections including albums, EPs, and singles.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application allows users to view and filter music collections by type (Album, EP, Single) and view detailed information about each collection including track listings, duration, size, and release dates.
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The project consists of two main components:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. **Frontend**: A React application built with Vite, TypeScript, Material UI, and Redux
+2. **Backend**: An Express.js server to handle API requests
+
+## Features
+
+- Browse music collections with filtering capabilities
+- View detailed information about each collection including:
+  - Track listings
+  - Song counts
+  - Duration
+  - File size
+  - Release dates
+  - Performers
+- Filter collections by type (Album, EP, Single)
+
+## Technologies Used
+
+### Frontend
+- React 19
+- TypeScript
+- Vite
+- Material UI (MUI)
+- Redux Toolkit
+- React Router
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- CORS
+
+## Getting Started
+
+### Prerequisites
+- Node.js (latest LTS version recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Premkumarv08/qube-cinema.git
+cd qube-cinema
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Install dependencies for both frontend and backend
+```bash
+# Install frontend dependencies
+npm install
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Navigate to server directory
+cd server
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+# Install backend dependencies
+npm install
+
+# Return to root directory
+cd ..
 ```
+
+### Running the Application
+
+#### Development Mode
+
+1. Start the backend server
+```bash
+cd server
+npm start
+```
+
+2. In a new terminal, start the frontend development server
+```bash
+npm run dev
+```
+
+#### Production Mode
+
+1. Build the frontend
+```bash
+npm run build
+```
+
+2. Start the backend server which will serve the built frontend
+```bash
+cd server
+npm start
+```
+
+## API Endpoints
+
+The backend provides the following API endpoints:
+
+- `GET /api/collections` - Get all music collections
+- `GET /api/collections/:id` - Get details for a specific collection
+- `GET /api/collections/filter?type=<type>` - Filter collections by type (Album, EP, Single)
+
+## Directory Structure
+
+```
+qube-cinema/
+├── public/
+├── server/
+│   ├── server.js
+│   ├── package.json
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── redux/
+│   ├── App.tsx
+│   ├── main.tsx
+├── package.json
+├── tsconfig.json
+├── vite.config.js
+└── README.md
+```
+
+## License
+
+This project is licensed under the ISC License.
