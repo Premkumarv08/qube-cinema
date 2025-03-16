@@ -1,0 +1,198 @@
+{
+    "collections": [
+      {
+        "id": "1",
+        "name": "EPIC: The Troy Saga (Official Concept Album)",
+        "artist": "Jorge Rivera-Herrans",
+        "type": "EP",
+        "songCount": 5,
+        "durationInSeconds": 940,
+        "sizeInBytes": 47185920,
+        "releasedOn": "2024-09-03T14:35:00Z"
+      },
+      {
+        "id": "2",
+        "name": "EPIC: The Ocean Saga (Official Concept Album)",
+        "artist": "Jorge Rivera-Herrans",
+        "type": "EP",
+        "songCount": 4,
+        "durationInSeconds": 780,
+        "sizeInBytes": 15728640,
+        "releasedOn": "2024-09-04T10:00:00Z"
+      },
+      {
+        "id": "3",
+        "name": "EPIC: The Ithaca Saga (Official Concept Album)",
+        "artist": "Jorge Rivera-Herrans",
+        "type": "EP",
+        "songCount": 4,
+        "durationInSeconds": 752,
+        "sizeInBytes": 31457280,
+        "releasedOn": "2024-09-04T10:00:00Z"
+      },
+      {
+        "id": "4",
+        "name": "Collection Name",
+        "artist": "Artist Name",
+        "type": "Album",
+        "songCount": 8,
+        "durationInSeconds": 1560,
+        "sizeInBytes": 12582912,
+        "releasedOn": "2024-10-04T02:35:00Z"
+      },
+      {
+        "id": "5",
+        "name": "Collection Name",
+        "artist": "Artist Name",
+        "type": "Album",
+        "songCount": 7,
+        "durationInSeconds": 1332,
+        "sizeInBytes": 10485760,
+        "releasedOn": "2024-09-01T12:31:00Z"
+      },
+      {
+        "id": "6",
+        "name": "Collection Name",
+        "artist": "Artist Name",
+        "type": "Album",
+        "songCount": 9,
+        "durationInSeconds": 1540,
+        "sizeInBytes": 16777216,
+        "releasedOn": "2024-09-05T12:31:00Z"
+      },
+      {
+        "id": "7",
+        "name": "Collection Name",
+        "artist": "Artist Name",
+        "type": "Single",
+        "songCount": 1,
+        "durationInSeconds": 140,
+        "sizeInBytes": 25165824,
+        "releasedOn": "2024-10-11T12:31:00Z"
+      },
+      {
+        "id": "8",
+        "name": "Collection Name",
+        "artist": "Artist Name",
+        "type": "Single",
+        "songCount": 1,
+        "durationInSeconds": 140,
+        "sizeInBytes": 25165824,
+        "releasedOn": "2024-10-11T12:31:00Z"
+      }
+    ],
+    "collections/1": {
+      "id": "1",
+      "name": "EPIC: The Troy Saga (Official Concept Album)",
+      "artist": "Jorge Rivera-Herrans",
+      "type": "EP",
+      "songCount": 5,
+      "songs": [
+        {
+          "title": "The Horse and the Infant",
+          "durationInSeconds": 155,
+          "sizeInBytes": 15728640,
+          "performers": ["Jorge Rivera-Herrans", "Luke Ivell & Cast of EPIC: The Musical"]
+        },
+        {
+          "title": "Just a Man",
+          "durationInSeconds": 150,
+          "sizeInBytes": 16777216,
+          "performers": ["Jorge Rivera-Herrans & Cast of EPIC: The Musical"]
+        },
+        {
+          "title": "Full Speed Ahead",
+          "durationInSeconds": 310,
+          "sizeInBytes": 25165824,
+          "performers": ["Jorge Rivera-Herrans", "Amanda Jabin, Steven Doskie & Cast of EPIC: The Musical"]
+        },
+        {
+          "title": "Open Arms",
+          "durationInSeconds": 165,
+          "sizeInBytes": 24117248,
+          "performers": ["Jorge Rivera-Herrans & Steven Doskie"]
+        },
+        {
+          "title": "Warrior of the Mind",
+          "durationInSeconds": 160,
+          "sizeInBytes": 24117248,
+          "performers": ["Jorge Rivera-Herrans", "Taylor Earley & Cast of EPIC: The Musical"]
+        }
+      ],
+      "durationInSeconds": 940,
+      "sizeInBytes": 47185920,
+      "releasedOn": "2023-11-10T00:00:00Z"
+    },
+    "collections/2": {
+      "id": "2",
+      "name": "EPIC: The Ocean Saga (Official Concept Album)",
+      "artist": "Jorge Rivera-Herrans",
+      "type": "EP",
+      "songCount": 4,
+      "songs": [
+        {
+          "title": "Out at Sea",
+          "durationInSeconds": 185,
+          "sizeInBytes": 12582912,
+          "performers": ["Jorge Rivera-Herrans & Cast"]
+        },
+        {
+          "title": "The Island",
+          "durationInSeconds": 195,
+          "sizeInBytes": 13631488,
+          "performers": ["Jorge Rivera-Herrans", "Amanda Jabin & Cast"]
+        },
+        {
+          "title": "Siren's Call",
+          "durationInSeconds": 200,
+          "sizeInBytes": 14680064,
+          "performers": ["Jorge Rivera-Herrans", "Taylor Earley"]
+        },
+        {
+          "title": "The Cyclops",
+          "durationInSeconds": 200,
+          "sizeInBytes": 15728640,
+          "performers": ["Jorge Rivera-Herrans", "Steven Doskie & Cast"]
+        }
+      ],
+      "durationInSeconds": 780,
+      "sizeInBytes": 15728640,
+      "releasedOn": "2024-09-04T10:00:00Z"
+    },
+    "collections/3": {
+      "id": "3",
+      "name": "EPIC: The Ithaca Saga (Official Concept Album)",
+      "artist": "Jorge Rivera-Herrans",
+      "type": "EP",
+      "songCount": 4,
+      "songs": [
+        {
+          "title": "20 Years",
+          "durationInSeconds": 182,
+          "sizeInBytes": 12582912,
+          "performers": ["Jorge Rivera-Herrans & Cast"]
+        },
+        {
+          "title": "The Contest",
+          "durationInSeconds": 190,
+          "sizeInBytes": 13631488,
+          "performers": ["Jorge Rivera-Herrans", "Luke Ivell & Cast"]
+        },
+        {
+          "title": "Reunion",
+          "durationInSeconds": 170,
+          "sizeInBytes": 14680064,
+          "performers": ["Jorge Rivera-Herrans", "Amanda Jabin"]
+        },
+        {
+          "title": "Home At Last",
+          "durationInSeconds": 210,
+          "sizeInBytes": 15728640,
+          "performers": ["Jorge Rivera-Herrans & Full Cast"]
+        }
+      ],
+      "durationInSeconds": 752,
+      "sizeInBytes": 31457280,
+      "releasedOn": "2024-09-04T10:00:00Z"
+    }
+  }
